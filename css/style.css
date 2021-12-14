@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: auto;
+    margin-top: 20px;
+    width: 910px;
+    text-align: center;
+}
+
+.item {
+    width: 300px;
+    display: inline-block;
+    padding-bottom: 30px;
+}
+
+.photo {
+    width: 100%;    
+    position: relative;
+}
+
+#swapimg {
+
+}
+
+.imgA {
+    width: 100%; 
+    display: block;
+}
+
+.imgB {
+    width: 100%; 
+    display: none;
+}
+
+#swapimg:hover .imgA {
+    width: 100%; 
+    display: none;
+}
+
+#swapimg:hover .imgB {
+    width: 100%; 
+    display: block;
+}
+
+.discount {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    color: white;
+    background-color: #EB0037;
+    padding: 4px;
+    font-size: 10px;
+    display: inline-block;
+}
+
+.extra {
+    position: absolute;
+    left: 32px;
+    bottom: 10px;
+    color: white;
+    background-color: #00875A;
+    padding: 4px;
+    font-size: 10px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.favourite {
+    position: absolute;
+    right: 0px;
+    top: 8px;
+    color: black;
+    background-color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.text {
+    padding-top: 5px;
+    text-align: left;
+}
+
+.brand {
+    font-size: 10px;
+    color: black;
+    display: block;
+}
+
+.product {
+    font-size: 13px;
+    font-weight: bolder;
+    display: block;
+}
+
+.price{
+    color: red;
+    font-size: 10px;
+    font-weight: bolder;
+    display: block;
+}
+
+.oldprice {
+    color: grey;
+    font-size: 10px;
+    text-decoration: line-through;
+}
+
+
