@@ -68,6 +68,18 @@
     font-weight: bold;
 }
 
+.extra2 {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    color: white;
+    background-color: #00875A;
+    padding: 4px;
+    font-size: 10px;
+    font-weight: bold;
+    display: inline-block;
+}
+
 .favourite {
     position: absolute;
     right: 0px;
